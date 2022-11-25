@@ -1,0 +1,47 @@
+@import "./variables.scss";
+
+@mixin text ($fontFamily, $fontSize, $lineHeight, $fontWight) {
+   font-family: $fontFamily;
+   font-size: $fontSize;
+   line-height: $lineHeight;
+   font-weight: $fontWight;
+   color: $titleTextColor;
+}
+
+@mixin flex($direction, $justifyContent, $alignItems, $wrap) {
+   display: flex;
+   flex-direction: $direction;
+   justify-content: $justifyContent;
+   align-items: $alignItems;
+   flex-wrap: $wrap;
+}
+
+// a {
+//    text-decoration: none;
+//    &:hover {
+//       color: red;
+//    }
+//    &:active {
+//       text-decoration: underline;
+//       color: red;
+//    }
+//    // уже посещали
+//    // &:visited {
+//    //    text-decoration: line-through;
+//    //    color: rgb(128, 255, 0);
+//    // }
+// }
+
+// button{
+//    background-color: aqua;
+//    padding: 10px;
+//    cursor: pointer;
+//    outline: none;
+//    // border: 1px solid red;
+//    border: unset;
+//    &:focus{
+//       outline: none;
+//    }
+// &:hover {}
+
+// }
